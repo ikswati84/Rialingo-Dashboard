@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Client - Rialingo</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar no-touch nk-nio-theme">
+    <div class="main-wrapper">
+        <div class="header header-one">
+            <div class="header-left header-left-one">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo.png" alt="Logo">
+                </a>
+                <a href="index.html" class="white-logo">
+                    <img src="assets/img/logo-white.png" alt="Logo">
+                </a>
+                <a href="index.html" class="logo logo-small">
+                    <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+            <a href="javascript:void(0);" id="toggle_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <ul class="nav nav-tabs user-menu">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <i data-feather="bell"></i> <span class="badge rounded-pill">5</span>
+                    </a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span class="notification-title">Notifications</span>
+                            <a href="javascript:void(0)" class="clear-noti"> Clear All</a>
+                        </div>
+                        <div class="noti-content">
+                            <ul class="notification-list">
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-02.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Brian Johnson</span>
+                                                    paid the invoice <span class="noti-title">#DF65485</span></p>
+                                                <p class="noti-time"><span class="notification-time">4 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-03.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Marie Canales</span>
+                                                    has accepted your estimate <span
+                                                        class="noti-title">#GTR458789</span></p>
+                                                <p class="noti-time"><span class="notification-time">6 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-primary-light"><i
+                                                        class="far fa-user"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">New user
+                                                        registered</span></p>
+                                                <p class="noti-time"><span class="notification-time">8 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-04.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Barbara Moore</span>
+                                                    declined the invoice <span class="noti-title">#RDW026896</span></p>
+                                                <p class="noti-time"><span class="notification-time">12 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-info-light"><i
+                                                        class="far fa-comment"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">You have received a new
+                                                        message</span></p>
+                                                <p class="noti-time"><span class="notification-time">2 days ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="activities.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown has-arrow main-drop">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <span class="user-img">
+                            <img src="assets/img/profiles/avatar-01.jpg" alt="">
+                            <span class="status online"></span>
+                        </span>
+                        <span>Super Admin</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item border-bottom " href="settings.html"><i data-feather="settings" class="me-1"></i>
+                            Settings</a>
+                        <a class="dropdown-item" href="login.html"><i data-feather="log-out" class="me-1"></i>
+                            Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><span>Main</span></li>
+                        <li>
+                            <a href="index.html"><i data-feather="home"></i> <span>Dashboard</span></a>
+                        </li>
+                        <li>
+                            <a href="inbox.html"><i data-feather="message-square"></i> <span>Inbox</span></a>
+                        </li>
+                        <li>
+                            <a href="client-list.html"><i data-feather="users"></i> <span>Clients</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="interpreter-list.html"><i data-feather="user-plus"></i> <span>Interpreteres</span></a>
+                        </li>
+                        <li>
+                            <a href="interpreter-request.html"><i data-feather="user-plus"></i> <span>Interpreter Request</span></a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><i data-feather="briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
+                            <ul>
+                                <li><a href="#"> Add Job</a></li>
+                                <li><a href="#">Manage Job</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="settings.html"><i data-feather="settings"></i> <span>Settings</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i data-feather="log-out"></i> <span>Logout</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+            <div class="content container-fluid">
+                <div class="page-header">
+                    <div class="row align-items-center">
+                      <div class="col">
+                        <h3 class="page-title">Add Interpreters</h3>
+                        <ul class="breadcrumb">
+                          <li class="breadcrumb-item">
+                            <a href="index.html">Dashboard</a>
+                          </li>
+                          <li class="breadcrumb-item active">Add Interpreters</li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <a href="interpreter-list.html" class="btn btn-primary me-1">
+                          <i class="fas fa-eye"></i> View Interpreter
+                        </a>
+                        <a class="btn btn-primary filter-btn" href="javascript:void(0);" id="filter_search"> <i class="fas fa-filter"></i>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="card-title">Interpreters</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="skill">First Name <sup class="text-danger">*</sup></label>
+                                            <input type="text" class="form-control dt-full-name" id="startTime" placeholder="First Name" name="first_name" required="">
+                                        </div>
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="skill">Last Name <sup class="text-danger">*</sup></label>
+                                            <input type="text" class="form-control dt-full-name" id="startTime" placeholder="Last Name" name="last_name" required="">
+                                        </div>
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="basic-icon-default-uname">Phone</label>
+                                            <input type="tel" id="basic-icon-default-uname" class="form-control dt-uname" placeholder="+93212131312" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="phone">
+                                        </div>
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="basic-icon-default-uname">Email</label>
+                                            <input type="email" id="basic-icon-default-uname" class="form-control dt-uname" placeholder="info@iconictek.com" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="phone">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <div class="mb-3">
+                                                <label class="form-label" for="basic-icon-default-email">Password <sup class="text-danger">*</sup></label>
+                                                <input type="password" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="*******" aria-label="john.doe@example.com" aria-describedby="basic-icon-default-email2" name="password" autocomplete="new-password">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="basic-icon-default-uname">Image</label>
+                                            <input type="file" id="basic-icon-default-uname" class="form-control dt-uname" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="image">
+                                        </div>
+                                        <div class="col-sm-6 mb-3">
+                                            <label class="form-label" for="skill">I Want to become <sup class="text-danger">*</sup></label>
+                                            <select class="form-select" name="job_type" aria-label="Default select example">
+                                                <option selected="" disabled="">select option</option>
+                                                <option value="Translator">Translator</option>
+                                                <option value="Interpreter">Interpreter</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="inputAddress" class="form-label lab-text">Interpreting Experience <span style="color: red">*</span></label>
+                                            <select class="form-select" name="experience" required="" aria-label="Default select example">
+                                                <option selected="" value="0">None</option>
+                                                <option value="1">Less than 1 year</option>
+                                                <option value="1-2">1-2 years</option>
+                                                <option value="2+">2+ years</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12 mb-3">
+                                            <label for="inputAddress" class="form-label lab-text">Industries <span style="color: red">*</span></label>
+                                            <select class="form-select" name="industry" required="" aria-label="Default select example">
+                                                <option selected="" value="Legal">Legal</option>
+                                                <option value="Medical">Medical</option>
+                                                <option value="Educational">Educational</option>
+                                                <option value="Global Meetings Conference">Global Meetings Conference</option>
+                                                <option value="Sign Language Assistance">Sign Language Assistance</option>
+                                                <option value="Employment">Employment</option>
+                                                <option value="Special Event">Special Event</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12 mt-3 mb-3">
+                                            <h3 class="label-text">In these languages </h3>
+                                        </div>
+                                        <div class="col-sm-12 mb-3">
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <label class="mb-2">Native Language</label>
+                                                    <select class="form-select" name="native_lang" required="" aria-label="Default select example">
+                                                        <option selected="" value="English">English</option>
+                                                        <option value="Somali">Somali</option>
+                                                        <option value="Arabic">Arabic</option>
+                                                        <option value="Oromo">Oromo</option>
+                                                        <option value="Dari and Pashto">Dari and Pashto</option>
+                                                        <option value="Hmong">Hmong</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <p  style="margin-top: 30px; text-align: center"><b>To</b></p>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <label for="inputAddress" class="form-label lab-text">Target Language <span style="color: red">*</span></label>
+                                                    <select class="form-select" name="target_lang" required="" aria-label="Default select example">
+                                                        <option selected="" value="English">English</option>
+                                                        <option value="Somali">Somali</option>
+                                                        <option value="Arabic">Arabic</option>
+                                                        <option value="Oromo">Oromo</option>
+                                                        <option value="Dari and Pashto">Dari and Pashto</option>
+                                                        <option value="Hmong">Hmong</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div >
+                                                    <div class="row">
+                                                        <div class="col-md-10 mb-3" id="upl-file">
+                                                            <label for="inputAddress" class="form-label lab-text">Upload Your certificates <span style="color: red">*</span></label>
+                                                            <input class="form-control" name="certificate[]" type="file" required="" id="formFile">
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="text-center mt">
+                                                                <a type="button" class="btn btn-primary" id="showButton">
+                                                                    <i class="fa fa-plus"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="targetRow" style="display: none;">
+                                                    <div class="row">
+                                                        <div class="col-md-10 mb-3" id="upl-file">
+                                                            <label for="inputAddress" class="form-label lab-text">Upload Your certificates <span style="color: red">*</span></label>
+                                                            <input class="form-control" name="certificate[]" type="file" required="" id="formFile">
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <div class="text-center mt">
+                                                                <a type="button" class="btn btn-danger " id="hideButton">
+                                                                    <i class="fa fa-minus"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-3">
+                                            <label for="inputAddress" class="form-label lab-text">Note: </label>
+                                            <textarea class="form-control" name="note" id="" cols="30" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer">
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/feather.min.js"></script>
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('#showButton').on('click', function(){
+            $('#targetRow').show();
+          });
+        });
+        $(document).ready(function(){
+          $('#hideButton').on('click', function(){
+            $('#targetRow').hide();
+          });
+        });
+    </script>
+    
+</body>
+
+</html>

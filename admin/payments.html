@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Settings - Rialingo</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar no-touch nk-nio-theme">
+    <div class="main-wrapper">
+        <div class="header header-one">
+            <div class="header-left header-left-one">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo.png" alt="Logo">
+                </a>
+                <a href="index.html" class="white-logo">
+                    <img src="assets/img/logo-white.png" alt="Logo">
+                </a>
+                <a href="index.html" class="logo logo-small">
+                    <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+            <a href="javascript:void(0);" id="toggle_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <ul class="nav nav-tabs user-menu">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <i data-feather="bell"></i> <span class="badge rounded-pill">5</span>
+                    </a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span class="notification-title">Notifications</span>
+                            <a href="javascript:void(0)" class="clear-noti"> Clear All</a>
+                        </div>
+                        <div class="noti-content">
+                            <ul class="notification-list">
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-02.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Brian Johnson</span>
+                                                    paid the invoice <span class="noti-title">#DF65485</span></p>
+                                                <p class="noti-time"><span class="notification-time">4 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-03.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Marie Canales</span>
+                                                    has accepted your estimate <span
+                                                        class="noti-title">#GTR458789</span></p>
+                                                <p class="noti-time"><span class="notification-time">6 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-primary-light"><i
+                                                        class="far fa-user"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">New user
+                                                        registered</span></p>
+                                                <p class="noti-time"><span class="notification-time">8 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-04.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Barbara Moore</span>
+                                                    declined the invoice <span class="noti-title">#RDW026896</span></p>
+                                                <p class="noti-time"><span class="notification-time">12 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-info-light"><i
+                                                        class="far fa-comment"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">You have received a new
+                                                        message</span></p>
+                                                <p class="noti-time"><span class="notification-time">2 days ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="activities.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown has-arrow main-drop">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <span class="user-img">
+                            <img src="assets/img/profiles/avatar-01.jpg" alt="">
+                            <span class="status online"></span>
+                        </span>
+                        <span>Super Admin</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item border-bottom " href="settings.html"><i data-feather="settings" class="me-1"></i>
+                            Settings</a>
+                        <a class="dropdown-item" href="login.html"><i data-feather="log-out" class="me-1"></i>
+                            Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><span>Main</span></li>
+                        <li>
+                            <a href="index.html"><i data-feather="home"></i> <span>Dashboard</span></a>
+                        </li>
+                        <li>
+                            <a href="inbox.html"><i data-feather="message-square"></i> <span>Inbox</span></a>
+                        </li>
+                        <li>
+                            <a href="client-list.html"><i data-feather="users"></i> <span>Clients</span></a>
+                        </li>
+                        <li>
+                            <a href="interpreter-list.html"><i data-feather="user-plus"></i> <span>Interpreteres</span></a>
+                        </li>
+                        <li>
+                            <a href="interpreter-request.html"><i data-feather="user-plus"></i> <span>Interpreter Request</span></a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><i data-feather="briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
+                            <ul>
+                                <li><a href="#"> Add Job</a></li>
+                                <li><a href="#">Manage Job</a></li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="settings.html"><i data-feather="settings"></i> <span>Settings</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i data-feather="log-out"></i> <span>Logout</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+            <div class="content container-fluid">
+              <div class="page-header">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="page-title">Settings</h3>
+                    <ul class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Dashboard</a>
+                      </li>
+                      <li class="breadcrumb-item active">Profile Settings</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-3 col-md-4">
+                  <div class="widget settings-menu">
+                    <ul>
+                      <li class="nav-item">
+                        <a href="settings.html" class="nav-link">
+                          <i class="far fa-user"></i> <span> General</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="change-password.html" class="nav-link">
+                          <i class="fas fa-unlock-alt"></i>
+                          <span>Change Password</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="information.html" class="nav-link">
+                          <i class="fa fa-info-circle"></i> <span>Information</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="payments.html" class="nav-link active">
+                          <i data-feather="sliders" class="me-3 "></i> <span>Payment</span>
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-9 col-md-8">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="card-title"> Payment</h5>
+                    </div>
+                    <div class="card-body">
+                      <form>
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Client</label>
+                                    <select class="form-select" name="client_id" required="">
+                                        <option value="">Select Client</option>
+                                        <option value="3">Client One</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Job Type</label>
+                                    <select class="form-select" name="job_type" required="">
+                                        <option selected="" disabled="">select type</option>
+                                        <option value="Educational">Educational</option>
+                                        <option value="Legal">Legal</option>
+                                        <option value="Medical">Medical</option>
+                                        <option value="Special Event">Special Event</option>
+                                        <option value="Employment">Employment</option>
+                                        <option value="Global Meetings &amp; Conference">Global Meetings &amp; Conference</option>
+                                        <option value="Sign Language Assistance">Sign Language Assistance</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Payment Schedule</label>
+                                    <select class="form-select" name="payment_schedule" required="">
+                                        <option selected="" disabled="">select Schedule</option>
+                                        <option value="Weekly">Weekly</option>
+                                        <option value="Monthly">Monthly</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Charge Types</label>
+                                    <select class="form-select" name="charge_type" required="">
+                                        <option selected="" disabled="">select charge type</option>
+                                        <option value="per_mint">Per Minute</option>
+                                        <option value="per_hour">Per Hour</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="account-phone">Cost</label>
+                                    <input type="text" class="form-control" id="account-phone" placeholder="Enter x amount" name="cost" required="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-start">
+                          <button type="submit" class="btn btn-primary me-3 ">Save Changes</button>
+                          <button type="reset" class="btn btn-outline-secondary">Cancel</button>
+                        </div>
+                      </form>
+                      <div class="row mt-3">
+                        <div class="col-lg-12 col-12">
+                            <h5>Charges Details</h5>
+                            <div class="table-responsive mt-3">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Clients</th>
+                                        <th style="align-items: center; vertical-align: middle">Job Type</th>
+                                        <th style="align-items: center; vertical-align: middle">Payment Schedule</th>
+                                        <th style="align-items: center; vertical-align: middle">Charge Types</th>
+                                        <th style="align-items: center; vertical-align: middle">Price</th>
+                                        <th style="align-items: center; vertical-align: middle">Actions</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="avatar-group align-items-center ps-0">
+                                                    <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar pull-up my-0 me-2" title="" data-bs-original-title="Lilian Nenez">
+                                                        <img src="assets/img/profiles/avatar-01.jpg" class="rounded-circle header-profile-user" alt="image">
+                                                    </div>
+                                                    Client One
+                                                </div>
+                                            </td>
+                                            <td style="align-items: center; vertical-align: middle">Educational</td>
+                                            <td style="align-items: center; vertical-align: middle">Monthly</td>
+                                            <td style="align-items: center; vertical-align: middle">Per Mint</td>
+                                            <td style="align-items: center; vertical-align: middle">10  Per Mint </td>
+                                            <td style="align-items: center; vertical-align: middle">
+                                                <a href="#" class="btn btn-sm btn-white text-success me-2" data-bs-toggle="modal" data-bs-target="#editCharges"><i class="far fa-edit me-1"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editCharges" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myLargeModalLabel">Update Charges</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Client</label>
+                                    <select class="form-select" id="clientId" name="updated_client_id" required="">
+                                        <option value="">Select Client</option>
+                                        <option value="3">Client One</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Job Type</label>
+                                    <select class="form-select" id="jobType" name="client_job_type" required="">
+                                        <option selected="" disabled="">select type</option>
+                                        <option value="Educational">Educational</option>
+                                        <option value="Legal">Legal</option>
+                                        <option value="Medical">Medical</option>
+                                        <option value="Special Event">Special Event</option>
+                                        <option value="Employment">Employment</option>
+                                        <option value="Global Meetings &amp; Conference">Global Meetings &amp; Conference</option>
+                                        <option value="Sign Language Assistance">Sign Language Assistance</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Payment Schedule</label>
+                                    <select class="form-select" id="payment" name="client_payment_schedule" required="">
+                                        <option selected="" disabled="">select Schedule</option>
+                                        <option value="Weekly">Weekly</option>
+                                        <option value="Monthly">Monthly</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="accountSelect">Charge Types</label>
+                                    <select class="form-select" id="chargeType" name="client_charge_type" required="">
+                                        <option selected="" disabled="">select charge type</option>
+                                        <option value="per_mint">Per Minute</option>
+                                        <option value="per_hour">Per Hour</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div>
+                                    <label class="form-label" for="account-phone">Cost</label>
+                                    <input type="text" class="form-control" id="account-phone" placeholder="Enter x amount" name="client_cost" required="">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Update</button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>                         
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/feather.min.js"></script>
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chart.js"></script>
+    
+</body>
+
+</html>

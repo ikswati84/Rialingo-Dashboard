@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Client - Rialingo</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar no-touch nk-nio-theme">
+    <div class="main-wrapper">
+        <div class="header header-one">
+            <div class="header-left header-left-one">
+                <a href="index.html" class="logo">
+                    <img src="assets/img/logo.png" alt="Logo">
+                </a>
+                <a href="index.html" class="white-logo">
+                    <img src="assets/img/logo-white.png" alt="Logo">
+                </a>
+                <a href="index.html" class="logo logo-small">
+                    <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+            <a href="javascript:void(0);" id="toggle_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+            <ul class="nav nav-tabs user-menu">
+                
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <i data-feather="bell"></i> <span class="badge rounded-pill">5</span>
+                    </a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span class="notification-title">Notifications</span>
+                            <a href="javascript:void(0)" class="clear-noti"> Clear All</a>
+                        </div>
+                        <div class="noti-content">
+                            <ul class="notification-list">
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-02.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Brian Johnson</span>
+                                                    paid the invoice <span class="noti-title">#DF65485</span></p>
+                                                <p class="noti-time"><span class="notification-time">4 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-03.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Marie Canales</span>
+                                                    has accepted your estimate <span
+                                                        class="noti-title">#GTR458789</span></p>
+                                                <p class="noti-time"><span class="notification-time">6 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-primary-light"><i
+                                                        class="far fa-user"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">New user
+                                                        registered</span></p>
+                                                <p class="noti-time"><span class="notification-time">8 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm">
+                                                <img class="avatar-img rounded-circle" alt=""
+                                                    src="assets/img/profiles/avatar-04.jpg">
+                                            </span>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">Barbara Moore</span>
+                                                    declined the invoice <span class="noti-title">#RDW026896</span></p>
+                                                <p class="noti-time"><span class="notification-time">12 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="activities.html">
+                                        <div class="media d-flex">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-title rounded-circle bg-info-light"><i
+                                                        class="far fa-comment"></i></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <p class="noti-details"><span class="noti-title">You have received a new
+                                                        message</span></p>
+                                                <p class="noti-time"><span class="notification-time">2 days ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="activities.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown has-arrow main-drop">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <span class="user-img">
+                            <img src="assets/img/profiles/avatar-01.jpg" alt="">
+                            <span class="status online"></span>
+                        </span>
+                        <span>Super Admin</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item border-bottom " href="settings.html"><i data-feather="settings" class="me-1"></i>
+                            Settings</a>
+                        <a class="dropdown-item" href="login.html"><i data-feather="log-out" class="me-1"></i>
+                            Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><span>Main</span></li>
+                        <li>
+                            <a href="index.html"><i data-feather="home"></i> <span>Dashboard</span></a>
+                        </li>
+                        <li>
+                            <a href="inbox.html"><i data-feather="message-square"></i> <span>Inbox</span></a>
+                        </li>
+                        <li class="active">
+                            <a href="client-list.html" class="active"><i data-feather="users"></i> <span>Clients</span></a>
+                        </li>
+                        <li>
+                            <a href="interpreter-list.html"><i data-feather="user-plus"></i> <span>Interpreteres</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i data-feather="user-plus"></i> <span>Interpreter Request</span></a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><i data-feather="briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
+                            <ul>
+                                <li><a href="#"> Add Job</a></li>
+                                <li><a href="#">Manage Job</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="settings.html"><i data-feather="settings"></i> <span>Settings</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i data-feather="log-out"></i> <span>Logout</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+            <div class="content container-fluid">
+                <div class="page-header">
+                    <div class="row align-items-center">
+                      <div class="col">
+                        <h3 class="page-title">Clients</h3>
+                        <ul class="breadcrumb">
+                          <li class="breadcrumb-item">
+                            <a href="index.html">Dashboard</a>
+                          </li>
+                          <li class="breadcrumb-item active">Clients</li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <a href="#" class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#addclient">
+                          <i class="fas fa-plus"></i> Add Client
+                        </a>
+                        <a class="btn btn-primary filter-btn" href="javascript:void(0);" id="filter_search"> <i class="fas fa-filter"></i>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div id="filter_inputs" class="card filter-card">
+                    <div class="card-body pb-0">
+                      <div class="row">
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" />
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" class="form-control" />
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label>Phone</label>
+                            <input type="text" class="form-control" />
+                          </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="mt">
+                                <button class="btn btn-success"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="card-title">Jobs in progress</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-stripped table-hover">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Name / Email</th>
+                                                <th>Phone / Join Date</th>
+                                                <th>Jobs Posted</th>
+                                                <th>Active Job</th>
+                                                <th>Amount Spend</th>
+                                                <th>Amount in-wallet</th>
+                                                <th>Status</th>
+                                                <th class="text-right">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <h2 class="table-avatar">
+                                                      <a href="#" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" /></a>
+                                                      <a href="#">Client One <span>client@rialingo.com</span></a>
+                                                    </h2>
+                                                </td>
+                                                <td>
+                                                    0303-9049868<br><span class="badge bg-primary  rounded-pill">10-24-2023</span>
+                                                </td>
+                                                <td>2</td>
+                                                <td>
+                                                   <h2 class="table-avatar">
+                                                    <a href="#">Abdullah <span>Test</span></a>
+                                                  </h2>
+                                                </td>
+                                                <td>$0</td>
+                                                <td>$0</td>
+                                                <td><span class="badge bg-success rounded-pill  px-3">Active</span></td>
+                                                <td class="text-center ">
+                                                    <div class="dropdown dropdown-action">
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                                class="fas fa-ellipsis-v"></i></a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item border-bottom " data-bs-toggle="modal" data-bs-target="#editclient"><i
+                                                                    class="far fa-edit me-2"></i>Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0);"><i
+                                                                    class="far fa-trash-alt me-2"></i>Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h2 class="table-avatar">
+                                                      <a href="#" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" /></a>
+                                                      <a href="#">Client One <span>client@rialingo.com</span></a>
+                                                    </h2>
+                                                </td>
+                                                <td>
+                                                    0303-9049868<br><span class="badge bg-primary  rounded-pill">10-24-2023</span>
+                                                </td>
+                                                <td>2</td>
+                                                <td>
+                                                   <h2 class="table-avatar">
+                                                    <a href="#">Abdullah <span>Test</span></a>
+                                                  </h2>
+                                                </td>
+                                                <td>$0</td>
+                                                <td>$0</td>
+                                                <td><span class="badge bg-success rounded-pill  px-3">Active</span></td>
+                                                <td class="text-center ">
+                                                    <div class="dropdown dropdown-action">
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                                class="fas fa-ellipsis-v"></i></a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item border-bottom" data-bs-toggle="modal" data-bs-target="#editclient"><i
+                                                                    class="far fa-edit me-2"></i>Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0);"><i
+                                                                    class="far fa-trash-alt me-2"></i>Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h2 class="table-avatar">
+                                                      <a href="#" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" /></a>
+                                                      <a href="#">Client One <span>client@rialingo.com</span></a>
+                                                    </h2>
+                                                </td>
+                                                <td>
+                                                    0303-9049868<br><span class="badge bg-primary  rounded-pill">10-24-2023</span>
+                                                </td>
+                                                <td>2</td>
+                                                <td>
+                                                   <h2 class="table-avatar">
+                                                    <a href="#">Abdullah <span>Test</span></a>
+                                                  </h2>
+                                                </td>
+                                                <td>$0</td>
+                                                <td>$0</td>
+                                                <td><span class="badge bg-success rounded-pill  px-3">Active</span></td>
+                                                <td class="text-center ">
+                                                    <div class="dropdown dropdown-action">
+                                                        <a href="#" class="action-icon dropdown-toggle"
+                                                            data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                                class="fas fa-ellipsis-v"></i></a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item border-bottom" data-bs-toggle="modal" data-bs-target="#editclient"><i
+                                                                    class="far fa-edit me-2"></i>Edit</a>
+                                                            <a class="dropdown-item" href="javascript:void(0);"><i
+                                                                    class="far fa-trash-alt me-2"></i>Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editclient" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myLargeModalLabel">Update Client</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-fullname">First Name <sup class="text-danger">*</sup></label>
+                                <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="John" name="first_name" aria-label="John" aria-describedby="basic-icon-default-fullname2" required="">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-fullname">Last Name <sup class="text-danger">*</sup></label>
+                                <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="Doe" name="last_name" aria-label="Doe" aria-describedby="basic-icon-default-fullname2" required="">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-uname">Image</label>
+                                <input type="file" id="basic-icon-default-uname" class="form-control dt-uname" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-uname">Phone</label>
+                                <input type="text" id="basic-icon-default-uname" class="form-control dt-uname" placeholder="+93212131312" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="phone">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Email <sup class="text-danger">*</sup></label>
+                                    <input type="email" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="john.doe@example.com" aria-label="john.doe@example.com" aria-describedby="basic-icon-default-email2" name="email" autocomplete="off">
+                                    <small class="form-text"> You can use letters, numbers &amp; periods </small>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Password <sup class="text-danger">*</sup></label>
+                                    <input type="password" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="*******" aria-label="john.doe@example.com" aria-describedby="basic-icon-default-email2" name="password" autocomplete="new-password">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Address <sup class="text-danger">*</sup></label>
+                                    <input type="text" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="8900 Penn Ave S Suite#309, Bloomington, MN" name="address" autocomplete="new-password">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Status</label>
+                                    <select name="client_status" class="form-control  height-35 f-15">
+                                        <option selected="" value="1">Active</option>
+                                        <option value="0">Inactive</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>                         
+    </div>
+
+    <div class="modal fade" id="addclient" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myLargeModalLabel">Add Client</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-fullname">First Name <sup class="text-danger">*</sup></label>
+                                <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="John" name="first_name" aria-label="John" aria-describedby="basic-icon-default-fullname2" required="">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-fullname">Last Name <sup class="text-danger">*</sup></label>
+                                <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="Doe" name="last_name" aria-label="Doe" aria-describedby="basic-icon-default-fullname2" required="">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-uname">Image</label>
+                                <input type="file" id="basic-icon-default-uname" class="form-control dt-uname" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="image">
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label" for="basic-icon-default-uname">Phone</label>
+                                <input type="text" id="basic-icon-default-uname" class="form-control dt-uname" placeholder="+93212131312" aria-label="jdoe1" aria-describedby="basic-icon-default-uname2" name="phone">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Email <sup class="text-danger">*</sup></label>
+                                    <input type="email" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="john.doe@example.com" aria-label="john.doe@example.com" aria-describedby="basic-icon-default-email2" name="email" autocomplete="off">
+                                    <small class="form-text"> You can use letters, numbers &amp; periods </small>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Password <sup class="text-danger">*</sup></label>
+                                    <input type="password" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="*******" aria-label="john.doe@example.com" aria-describedby="basic-icon-default-email2" name="password" autocomplete="new-password">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="basic-icon-default-email">Address <sup class="text-danger">*</sup></label>
+                                    <input type="text" id="basic-icon-default-email" required="" class="form-control dt-email" placeholder="8900 Penn Ave S Suite#309, Bloomington, MN" name="address" autocomplete="new-password">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>                         
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/feather.min.js"></script>
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chart.js"></script>
+</body>
+
+</html>
